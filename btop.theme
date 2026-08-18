@@ -1,0 +1,94 @@
+# macOS Liquid Glass btop theme
+# Main background
+theme[main_bg]="#0a0e1a"
+
+# Main text color
+theme[main_fg]="#e6edf7"
+
+# Title color for boxes
+theme[title]="#2ea8ff"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#4dd0e1"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#2a3352"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#f2f6ff"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#2a3352"
+
+# Color of text appearing on top of graphs
+theme[graph_text]="#f2f6ff"
+
+# Background color of the percentage meters
+theme[meter_bg]="#2a3352"
+
+# Misc colors for processes box
+theme[proc_misc]="#4dd0e1"
+
+# CPU, Memory, Network, Proc box outline colors
+theme[cpu_box]="#2ea8ff"
+theme[mem_box]="#b388ff"
+theme[net_box]="#4dd0e1"
+theme[proc_box]="#2ea8ff"
+
+# Box divider line
+theme[div_line]="#2a3352"
+
+# Temperature graph color (cold to warm)
+theme[temp_start]="#4dd0e1"
+theme[temp_mid]="#b388ff"
+theme[temp_end]="#ff5f87"
+
+# CPU graph colors (Aqua -> Ice -> Violet)
+theme[cpu_start]="#4dd0e1"
+theme[cpu_mid]="#2ea8ff"
+theme[cpu_end]="#b388ff"
+
+# Mem/Disk free meter
+theme[free_start]="#b388ff"
+theme[free_mid]="#2ea8ff"
+theme[free_end]="#4dd0e1"
+
+# Mem/Disk cached meter
+theme[cached_start]="#4dd0e1"
+theme[cached_mid]="#2ea8ff"
+theme[cached_end]="#b388ff"
+
+# Mem/Disk available meter
+theme[available_start]="#2ea8ff"
+theme[available_mid]="#4dd0e1"
+theme[available_end]="#b388ff"
+
+# Mem/Disk used meter
+theme[used_start]="#2ea8ff"
+theme[used_mid]="#4dd0e1"
+theme[used_end]="#b388ff"
+
+# Download graph colors
+theme[download_start]="#7fe3f0"
+theme[download_mid]="#2ea8ff"
+theme[download_end]="#4dd0e1"
+
+# Upload graph colors
+theme[upload_start]="#7fe3f0"
+theme[upload_mid]="#2ea8ff"
+theme[upload_end]="#4dd0e1"
+
+# Process box color gradient
+theme[process_start]="#4dd0e1"
+theme[process_mid]="#2ea8ff"
+theme[process_end]="#b388ff"
+
+# Graph gradient colors
+theme[gradient_color_0]="#0a0e1a"
+theme[gradient_color_1]="#2a3352"
+theme[gradient_color_2]="#2ea8ff"
+theme[gradient_color_3]="#4dd0e1"
+theme[gradient_color_4]="#7fe3f0"
+theme[gradient_color_5]="#b388ff"
+theme[gradient_color_6]="#c49aff"
+theme[gradient_color_7]="#ffffff"

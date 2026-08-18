@@ -1,0 +1,135 @@
+# macOS Liquid Glass — Omarchy shell surfaces (bar, notifications, menus).
+# This theme file replaces the generated shell.toml. Moderate frosted glass:
+# translucent fills (~0.55 alpha) with accent-gradient borders everywhere.
+
+[bar]
+background       = "#0a0e1a"
+background-alpha = 0.55
+text             = "#e6edf7"
+active           = "#ff5f87"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
+
+[hyprland]
+active-border            = "rgba(2ea8ffee) rgba(4dd0e1ee) rgba(b388ffee) 120deg"
+active-border-foreground = "#e6edf7"
+
+[controls]
+normal-color        = "#e6edf7"
+normal-fill-alpha   = 0.04
+normal-border       = "#e6edf7"
+normal-border-width = 1
+normal-border-alpha = 0.4
+
+hover-cursor-color        = "#e6edf7"
+hover-cursor-fill-alpha   = 0.08
+hover-cursor-border       = "#e6edf7"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.25
+
+focus-color        = "#e6edf7"
+focus-fill-alpha   = 0.08
+focus-border       = "#e6edf7"
+focus-border-width = 1
+focus-border-alpha = 0.25
+
+selected-color        = "#e6edf7"
+selected-fill-alpha   = 0.18
+selected-border       = "#e6edf7"
+selected-border-width = 0
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 0.22
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#0a0e1a"
+background-alpha = 0.55
+text             = "#e6edf7"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+
+[tooltip]
+background       = "#0a0e1a"
+background-alpha = 0.55
+text             = "#e6edf7"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 1.0
+
+[notifications]
+background       = "#0a0e1a"
+background-alpha = 0.55
+text             = "#e6edf7"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+countdown        = "#2ea8ff"
+
+[launcher]
+background                = "#0a0e1a"
+background-alpha          = 0.55
+text                      = "#e6edf7"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 1.0
+scrim                     = "#0a0e1a"
+scrim-alpha               = 0.5
+selected-background       = "#e6edf7"
+selected-background-alpha = 0.08
+selected-text             = "#2ea8ff"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.25
+
+[menu]
+background                = "#0a0e1a"
+background-alpha          = 0.55
+text                      = "#e6edf7"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 1.0
+scrim                     = "#0a0e1a"
+scrim-alpha               = 0.5
+selected-background       = "#e6edf7"
+selected-background-alpha = 0.08
+selected-text             = "#2ea8ff"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.25
+
+[polkit]
+background       = "#0a0e1a"
+background-alpha = 0.55
+text             = "#e6edf7"
+text-error       = "#ff5f87"
+border           = "hyprland.active-border"
+border-error     = "#ff5f87"
+border-alpha     = 1.0
+scrim            = "#0a0e1a"
+scrim-alpha      = 0.5
+accent           = "#2ea8ff"
+
+[lock]
+background       = "#0a0e1a"
+background-alpha = 0.55
+text             = "#e6edf7"
+placeholder      = "#8a94a8"
+text-error       = "#ff5f87"
+border           = "hyprland.active-border"
+border-active    = "hyprland.active-border"
+border-error     = "#ff5f87"
+border-alpha     = 1.0
+selection        = "#2ea8ff"
+selection-alpha  = 0.45
+
+[image-picker]
+scrim                   = "#0a0e1a"
+scrim-alpha             = 0.5
+text                    = "#e6edf7"
+selected-border         = "#2ea8ff"
+selected-border-alpha   = 1.0
+unselected-border       = "#e6edf7"
+unselected-border-alpha = 0.28
